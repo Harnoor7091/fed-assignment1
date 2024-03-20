@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    width: 50vw;
+    height: 100vh;
+    color: white;
+}
+
+.lhead{
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 2vw;
+    margin-top: 7px;
+    color: white;
+}
+
+.rhead{
+    font-size: 19px;
+    font-weight: 500;
+    margin-left: 2vw;
+    margin-top: 7px;
+    color: black;
+}
+
+.right{
+    width: 50vw;
+    height: 100vh;
+    color: white;
+}
+
+.item{
+    height: 120px;
+    width: 180px;
+    background-color: rgba(5, 107, 123, 0.299);
+    margin-top: 49px;
+}
+
+.items{
+    margin-top: 4vw;
+    margin-left: 14.9vw;
+}
+
+.item > img{
+    height: 120px;
+    width: 180px;
+}
+
+.atcart{
+    font-size: 17px;
+    font-weight: 500;
+    width: 269px;
+    height: 40px;
+    background-color: #ffffff00;
+    color: rgb(2, 86, 114);
+    border: none;
+}
+
+.atcart:hover{
+    background-color: rgba(0, 202, 234, 0.758); 
+    color: white;
+}
+
+.rtitle{
+    display: flex;
+    gap: 9px;
+    margin-left: 16vw;
+    margin-top: 14px;
+}
+
+.rtitle img{
+    width: 29px;
+}
+
+.rtitle h1{
+    font-size: 24px;
+}
+
+.cartItemsContainer{
+    height: 74vh;
+    width: 37vw;
+    margin-top: 4vh;
+    margin-left: 1.7vw;
+    padding-top: 4vw;
+}
+
+.cartItem{
+    width: 29vw;
+    height: 10vw;
+    background-color: rgb(255, 255, 255);
+    margin-left: 4vw;
+    margin-top: 2vw;
+}
+
+.removeItem{
+    width: 0vw;
+    height: 0vw;
+    background-color: rgba(255, 255, 255, 0);
+    margin-left: 0vw;
+}
+
+.cardStruct{
+    display: flex;
+    gap: 14px;
+}
+
+.cardStruct img{
+    width: 12vw;
+    height: 10vw;
+}
+
+.cardStruct h1{
+    color: rgba(10, 10, 10, 0.731);
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 9px;
+}
+
+.qty{
+    display: flex;
+    color: black;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.qty p{
+    font-size: 14;
+    font-weight: 700;
+    color: rgba(10, 10, 10, 0.731);
+}
+
+.indecbutton{
+    font-size: 19px;
+    color: black;
+    font-weight: 700;
+    padding: 0 12px;
+    margin-left: 9px;
+    margin-right: 9px;
+}
